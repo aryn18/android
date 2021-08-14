@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/appsmenu"
+    android:layout_height="match_parent"
+    tools:context=".Appsmenu">
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_corners"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/text_to_speech" />
+
+    <Button
+        android:textColor="@color/white"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/rounded_corners"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="210dp"
+        android:text="@string/mobile_tools" />
+
+    <Button
+        android:id="@+id/button4"
+        android:textColor="@color/white"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/rounded_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="348dp"
+        android:text="@string/sensors" />
+
+    <Button
+        android:textColor="@color/white"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/button5"
+        android:background="@drawable/rounded_corners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="221dp"
+        android:text="@string/play_quiz" />
+
+    <Button
+        android:textColor="@color/white"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/rounded_corners"
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="99dp"
+        android:text="Entertainment" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginBottom="38dp"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/button76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp"
+        android:text="Logout"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_corners"
+        android:layout_alignParentLeft="true" />
+
+
+</RelativeLayout>

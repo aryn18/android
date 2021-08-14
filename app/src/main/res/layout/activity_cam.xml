@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cam"
+    android:layout_height="match_parent"
+    tools:context=".Cam">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="50dp"
+        android:background="@drawable/rounded_corners3"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/rounded_corners3"
+        android:textColor="@color/white"
+        android:layout_marginBottom="176dp"
+        android:text="Press here to take pictures" />
+</RelativeLayout>

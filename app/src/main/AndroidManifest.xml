@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Android">
+        <activity android:name=".Sign2"></activity>
+        <activity android:name=".Sign" />
+        <activity android:name=".Email2" />
+        <activity android:name=".Email" />
+        <activity android:name=".Otp2" />
+        <activity android:name=".Otp1" />
+        <activity android:name=".Realtime" />
+        <activity android:name=".Calculator" />
+        <activity android:name=".VideoPlayer1" />
+        <activity android:name=".VideoPlayer" />
+        <activity android:name=".MediaPlayer1" />
+        <activity android:name=".Webbrowser" />
+        <activity android:name=".Vibrate" />
+        <activity android:name=".MediaPlayer" />
+        <activity android:name=".Moreapps" />
+        <activity android:name=".Bluewithimage" />
+        <activity android:name=".Bluewithbutton" />
+        <activity android:name=".Bluewithtoggle" />
+        <activity android:name=".Bluetooth" />
+        <activity android:name=".Wifiwithimage" />
+        <activity android:name=".Wifiwithbutton" />
+        <activity android:name=".Wifiwithtoggle" />
+        <activity android:name=".Wifi" />
+        <activity android:name=".Torwithimage" />
+        <activity android:name=".Torwithbutton" />
+        <activity android:name=".Torwithtoggle" />
+        <activity android:name=".Torch" />
+        <activity android:name=".Video" />
+        <activity android:name=".Cam" />
+        <activity android:name=".Mobiletools" />
+        <activity android:name=".Torchsensor" />
+        <activity android:name=".Tiltsensor" />
+        <activity android:name=".Gravitysensor" />
+        <activity android:name=".Lightsensor" />
+        <activity android:name=".Sensors" />
+        <activity android:name=".Quiz4" />
+        <activity android:name=".Quiz3" />
+        <activity android:name=".Quiz2" />
+        <activity android:name=".Quiz" />
+        <activity android:name=".Texttospe" />
+        <activity android:name=".Appsmenu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

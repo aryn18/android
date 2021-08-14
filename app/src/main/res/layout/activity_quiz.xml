@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/quiz"
+    android:layout_height="match_parent"
+    tools:context=".Quiz">
+
+    <RadioGroup
+        android:layout_width="409dp"
+        android:layout_height="319dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="123dp" >
+
+        <RadioButton
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:buttonTint="@color/white"
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Varanasi"
+            android:layout_alignParentLeft="true" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:textColor="@color/white"
+            android:buttonTint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Agra" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:text="Kanpur" />
+
+        <RadioButton
+            android:textSize="20dp"
+            android:id="@+id/radioButton4"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lucknow" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button8"
+        android:background="@drawable/rounded_corners6"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:textColor="@color/white"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="Press here for next ques" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:text="Where do you live ?"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

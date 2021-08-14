@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/video"
+    android:layout_height="match_parent"
+    tools:context=".VideoPlayer1">
+
+    <VideoView
+        android:id="@+id/videoView3"
+        android:layout_width="match_parent"
+        android:layout_height="311dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="120dp" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="172dp"
+        android:textColor="@color/white"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/rounded_corners3"
+        android:text="Previous video" />
+
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/rounded_corners3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="33dp"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/web"
+    android:layout_height="match_parent"
+    tools:context=".Webbrowser">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:background="@drawable/rounded_corners2"
+        android:hint="Enter your URL" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/webView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="145dp" />
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="200dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="154dp"
+        android:text="Press here for search" />
+
+    <ImageButton
+        android:id="@+id/imageButton29"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@drawable/rounded_corners2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

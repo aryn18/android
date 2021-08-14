@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">android</string>
+    <string name="click_here">click here</string>
+    <string name="text_to_speech">text to speech</string>
+    <string name="mobile_tools">mobile tools</string>
+    <string name="sensors">Sensors</string>
+    <string name="play_quiz">play quiz</string>
+    <string name="more_apps">More apps</string>
+    <string name="todo">TODO</string>
+</resources>

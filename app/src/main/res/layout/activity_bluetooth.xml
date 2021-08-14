@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/blue"
+    android:layout_height="match_parent"
+    tools:context=".Bluetooth">
+
+    <Button
+        android:id="@+id/button32"
+        android:background="@drawable/rounded_corners2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginStart="0dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="77dp"
+        android:text="Enable with image" />
+
+    <Button
+        android:id="@+id/button33"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="352dp"
+        android:background="@drawable/rounded_corners2"
+        android:text="Enable with button"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button34"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="117dp"
+        android:background="@drawable/rounded_corners2"
+        android:text="Enable with toggle"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_corners2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
