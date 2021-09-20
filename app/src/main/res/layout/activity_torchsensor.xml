@@ -31,4 +31,16 @@
         android:layout_marginBottom="60dp"
         app:srcCompat="?attr/actionModeCloseDrawable"
         android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Tilt your phone and your flashlight is on" />
 </RelativeLayout>

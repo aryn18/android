@@ -19,7 +19,7 @@
         android:layout_marginStart="3dp"
         android:layout_marginLeft="3dp"
         android:layout_marginTop="39dp"
-        android:text="What is your age ?" />
+        android:text="5*4 ?" />
 
     <RadioGroup
         android:layout_width="match_parent"

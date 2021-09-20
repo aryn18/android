@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:buttonTint="@color/white"
             android:textColor="@color/white"
-            android:text="Kanpur" />
+            android:text="Delhi" />
 
         <RadioButton
             android:textSize="20dp"
@@ -78,7 +78,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="33dp"
-        android:text="Where do you live ?"
+        android:text="Capital of India ?"
         android:layout_alignParentLeft="true" />
 
 </RelativeLayout>

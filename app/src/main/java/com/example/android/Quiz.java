@@ -23,7 +23,7 @@ public class Quiz extends AppCompatActivity {
         radioButton3 = findViewById(R.id.radioButton4);
         button.setOnClickListener(view -> {
             score = 0;
-            if(radioButton.isChecked())
+            if(radioButton2.isChecked())
             {
                 ++score;
             }

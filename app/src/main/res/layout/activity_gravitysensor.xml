@@ -63,4 +63,16 @@
         android:layout_marginBottom="50dp"
         app:srcCompat="?attr/actionModeCloseDrawable"
         android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="185dp"
+        android:text="Allign your phone perpendicular to ground" />
 </RelativeLayout>

@@ -20,7 +20,7 @@
         android:layout_marginLeft="106dp"
         android:layout_marginTop="203dp"
         android:background="@drawable/rounded_corners4"
-        android:text="Bluetooth On"
+        android:text="Torch On"
         android:textColor="@color/white" />
 
     <Button
@@ -33,7 +33,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="196dp"
-        android:text="Bluetooth Off" />
+        android:text="Torch Off" />
 
     <ImageButton
         android:id="@+id/imageButton14"
